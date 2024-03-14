@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --c-green: hsl(75, 94%, 57%);
+    --c-grey: hsl(0, 0%, 20%);
+    --c-dgrey: hsl(0, 0%, 12%);
+    /* off Black hsl(0, 0%, 8%) */
+    --bor-r: 15px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+    font-size: 14px;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 450px;
+    background-color: var(--c-dgrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding: 3em 2.5em;
+    border-radius: var(--bor-r);
+    color: #fff;
+}
+
+h1 {
+    font-weight: 400;
+}
+h1 + b {
+    color: var(--c-green);
+    margin-bottom: 1em;
+}
+
+#avatra-img {
+    border-radius: 50%;
+}
+
+ul {
+    width: 100%;
+}
+ul li {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: var(--c-grey);
+    margin-block-start: 1em;
+    text-align: center;
+    font-weight: 600;
+}
+ul a {
+    color: #fff;
+}
