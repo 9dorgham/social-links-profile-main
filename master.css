@@ -48,6 +48,7 @@ a {
 
 h1 {
     font-weight: 400;
+    font-size: clamp(20px, 2vw, 2em);
 }
 h1 + b {
     color: var(--c-green);
@@ -80,4 +81,18 @@ ul li:hover {
 }
 ul li:hover a {
     color: var(--c-dgrey);
+}
+
+/* viewport */
+@media (max-width: 450px) {
+    .container {
+        width: 350px;
+        padding: 2em 1em;
+    }
+    #avatra-img {
+        width: 80px !important;
+    }
+    li a {
+        font-size: 14px;
+    }
 }

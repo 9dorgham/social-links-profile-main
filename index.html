@@ -13,7 +13,11 @@
 <body>
 
   <div class="container">
-    <img id="avatra-img" width="120" src="./assets/images/avatar-moi.jpg" alt="my personal image for me">
+    <picture>
+      <source srcset="./assets/images/avatar-small.jpg" alt="my personal image for me" media="(max-width:400px)">
+      <source srcset="./assets/images/avatar-larg.jpg" alt="my personal image for me" media="(min-width:400px)">
+      <img id="avatra-img" width="120" src="./assets/images/avatar-larg.jpg" alt="my personal image for me">
+    </picture>
     <h1>Abdullah Mohamed</h1>
     <b>Cairo, Egypt</b>
     <p>"Front-end developer and avid reader."</p>
