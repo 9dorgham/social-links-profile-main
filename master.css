@@ -72,3 +72,12 @@ ul li {
 ul a {
     color: #fff;
 }
+
+/* hover-effect */
+ul li:hover {
+    background-color: var(--c-green);
+    cursor: pointer;
+}
+ul li:hover a {
+    color: var(--c-dgrey);
+}
