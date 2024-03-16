@@ -46,11 +46,14 @@ a {
     color: #fff;
 }
 
+figure {
+    text-align: center;
+}
 h1 {
     font-weight: 400;
     font-size: clamp(20px, 2vw, 2em);
 }
-h1 + b {
+strong {
     color: var(--c-green);
     margin-bottom: 1em;
 }
